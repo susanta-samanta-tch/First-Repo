@@ -1,7 +1,3 @@
-# PLAN-SMART-P1-BACKEND
-Interview management system backend using nodejs  
-
-
 
 # To link second git account to laptop follow this steps:
 
@@ -54,15 +50,37 @@ Interview management system backend using nodejs
 
 ## step 5: (To clone repo)
 
-### If public repo then :  
+### Copy ssh repo link then :  
     Then clone this way : 
-    git clone https://github.com/susanta-samanta-tch/First-Repo.git
-##### then check origin :
-    (base) PS C:\Users\HP\Desktop\Work\Test> cd .\First-Repo\
-    (base) PS C:\Users\HP\Desktop\Work\Test\First-Repo> git remote -v
+    (base) PS C:\Users\HP\Desktop\Work>  $env:GIT_SSH_COMMAND='ssh -i "C:\Users\HP\.ssh\office_github"'
+    (base) PS C:\Users\HP\Desktop\Work>  git clone git@github.com:susanta-samanta-tch/First-Repo.git
+    Cloning into 'First-Repo'...
+    remote: Enumerating objects: 44,       done.                                                                                     
+    remote: Counting objects: 100% (44/44),        done.                                                                                     remote: Compressing objects: 100% (39/39),     done.
+    Receiving objects: 100% (44/44), 35.20 KiB | 203.00 KiB/s, done.rom                                                                          
+    Resolving deltas: 100% (3/3), done.
+    (base) PS C:\Users\HP\Desktop\Work\test2> 
+
+### then check origin :
+    (base) PS C:\Users\HP\Desktop\Work> cd .\First-Repo\
+    (base) PS C:\Users\HP\Desktop\Work\First-Repo> git remote -v
     origin  https://github.com/susanta-samanta-tch/First-Repo.git (fetch)
     origin  https://github.com/susanta-samanta-tch/First-Repo.git (push)
-##### Commit like this :
 
+### Commit like this :
+    (base) PS C:\Users\HP\Desktop\Work\First-Repo> git add .                         
+    (base) PS C:\Users\HP\Desktop\Work\First-Repo> git commit -m "update readme"     
+    [main 98e6bf3] update readme
+    1 file changed, 66 insertions(+)
 
+### Push like this :
+    (base) PS C:\Users\HP\Desktop\Work\First-Repo>  $env:GIT_SSH_COMMAND='ssh -i "C:\Users\HP\.ssh\office_github"'
+    (base) PS C:\Users\HP\Desktop\Work\First-Repo> git push
+    Enumerating objects: 5, done.
+    Counting objects: 100% (5/5), done.
+    Delta compression using up to 16 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (3/3), 1.26 KiB | 1.26 MiB/s, done.
+
+ 
 
