@@ -1,2 +1,2 @@
-# First-Repo
-For test repo in gitHub 
+# PLAN-SMART-P1-BACKEND
+Interview management system backend using nodejs  
