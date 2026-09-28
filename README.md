@@ -67,6 +67,27 @@
     origin  https://github.com/susanta-samanta-tch/First-Repo.git (fetch)
     origin  https://github.com/susanta-samanta-tch/First-Repo.git (push)
 
+
+### Setup user name and email 
+    //// Default user name and email
+    
+    (base) PS C:\Users\HP\Desktop\grossify-backend> git config user.name
+    Susanta Samanta
+    (base) PS C:\Users\HP\Desktop\grossify-backend> git config user.email 
+    susantasamanta0708@gmail.com
+    (base) PS C:\Users\HP\Desktop\grossify-backend> git config user.name "Susanta Samanta"
+    (base) PS C:\Users\HP\Desktop\grossify-backend> git config user.email "susanta.samanta@thecodershub.co.in"
+
+    
+    ////// Change user and email to second account
+    
+    (base) PS C:\Users\HP\Desktop\grossify-backend> git config user.name
+    Susanta Samanta
+    (base) PS C:\Users\HP\Desktop\grossify-backend> git config user.email
+    susanta.samanta@thecodershub.co.in
+    (base) PS C:\Users\HP\Desktop\grossify-backend>
+
+
 ### Commit like this :
     (base) PS C:\Users\HP\Desktop\Work\First-Repo> git add .                         
     (base) PS C:\Users\HP\Desktop\Work\First-Repo> git commit -m "update readme"     
@@ -82,5 +103,4 @@
     Compressing objects: 100% (3/3), done.
     Writing objects: 100% (3/3), 1.26 KiB | 1.26 MiB/s, done.
 
- 
 
